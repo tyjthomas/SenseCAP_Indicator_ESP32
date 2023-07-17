@@ -295,7 +295,7 @@ static void mqtt_start(void)
     esp_mqtt_client_config_t mqtt_cfg = {
         .broker.address.uri = CONFIG_BROKER_URL,
         .credentials.username = "MQTT_Indicator_1", // Your Home Assistant user
-        .credentials.authentication.password = "kjdf", // Your Home Assistant user's password
+        .credentials.authentication.password = "home3107", // Your Home Assistant user's password
     };
 
     mqtt_client = esp_mqtt_client_init(&mqtt_cfg);
